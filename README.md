@@ -4,11 +4,11 @@
 <h3> Table of Contents </h3>
 <li>Language Selector.</li>
  
-Country Selector.
+<li>Country Selector.</li>
 
-Phone Number Validation.
+<li>Phone Number Validation.</li>
 
-Payment.
+<li>Payment.</li>
 
 <h3> Features </h3>
 <ul>
