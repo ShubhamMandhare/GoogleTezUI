@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:aap="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.sothree.slidinguppanel.SlidingUpPanelLayout xmlns:sothree="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/sliding_layout"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:gravity="bottom"
+            sothree:umanoPanelHeight="68dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:background="@drawable/blue">
+
+                <io.ghyeok.stickyswitch.widget.StickySwitch
+                    android:id="@+id/sticky1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="fill_vertical"
+                    android:layout_marginTop="142dp"
+                    android:visibility="invisible"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    app:ss_sliderBackgroundColor="@color/colorPrimaryDark"
+                    app:ss_switchColor="@android:color/white"
+                    app:ss_animationDuration="300"
+                    app:ss_iconPadding="10dp"
+                    app:ss_iconSize="80dp"
+                    app:ss_rightText="Pay"
+                    app:ss_leftText="Receive"
+                    />
+
+                <ImageButton
+                    android:id="@+id/click"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignTop="@+id/sticky1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/tezlogo" />
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/click"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="60dp"
+                android:layout_marginStart="21dp"
+                android:gravity="center|top"
+                android:text="Payment History"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+
+        </com.sothree.slidinguppanel.SlidingUpPanelLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

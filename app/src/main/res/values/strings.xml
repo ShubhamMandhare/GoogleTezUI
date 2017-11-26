@@ -1,0 +1,9 @@
+<resources>
+    <string name="lang">Welcome to Tez</string>
+    <string name="lang2">Choose a language to get started</string>
+    <string name="phonecode">Select your country </string>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="phnum">Enter you phone number</string>
+    <string name="phnum1">Use the number on this phone.It should be registered with your bank account </string>
+    <string name="otp">Generate OTP</string>
+</resources>
