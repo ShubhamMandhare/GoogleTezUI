@@ -3,14 +3,13 @@
  
 <h3> Table of Contents </h3>
 
-<ul><li><Language Selector. </li>
+<li><Language Selector. </li>
  
 <li>Country Selector.</li>
 
 <li>Phone Number Validation. </li>
 
 <li>Payment. </li>
-</ul> 
 
 <h3> Features </h3>
 <ul>
