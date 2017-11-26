@@ -1,8 +1,7 @@
 <h1>Google Tez GUI</h1>
 <h2>This Android application features a GUI similar to that of the Google Tez payments application.</h2>
- 
-<h3> Table of Contents </h3>
 
+<h3> Table of Contents </h3>
 <li><Language Selector. </li>
  
 <li>Country Selector.</li>
