@@ -2,13 +2,13 @@
 <h2>This Android application features a GUI similar to that of the Google Tez payments application.</h2>
 
 <h3> Table of Contents </h3>
-<li><Language Selector. </li>
+<Language Selector.
  
-<li>Country Selector.</li>
+Country Selector.
 
-<li>Phone Number Validation. </li>
+Phone Number Validation.
 
-<li>Payment. </li>
+Payment.
 
 <h3> Features </h3>
 <ul>
