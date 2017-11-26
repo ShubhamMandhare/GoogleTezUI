@@ -2,7 +2,7 @@
 <h2>This Android application features a GUI similar to that of the Google Tez payments application.</h2>
 
 <h3> Table of Contents </h3>
-<Language Selector.
+<li>Language Selector.</li>
  
 Country Selector.
 
